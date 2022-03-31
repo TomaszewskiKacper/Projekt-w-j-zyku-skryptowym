@@ -1,0 +1,55 @@
+Kacper Tomaszewski                                                    31.03.2022
+
+Raport II
+
+Do projektu zostały dodane funkcje:
+- główny bot
+- "dummy" bot
+- podstawowe komendy
+- "automatyczna" detekcja złych słów i reakcja na nie
+
+Nieprzewidziane problemy:
+- potrzeba instalacji bibliotek (discord, dotenv)
+- nie działanie komend w wyniku zbyt wysokich uprawnień "dummy" bota
+
+Prace do ukończenia
+- dodanie innych komend
+- zarządzanie botem z poziomu discorda
+- dodanie zarządzaniem rolami
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Archiwum aktualizacji
+
+
+# 19.03.2022
++ Instalacja środowiska "pycharm"
++ Instalacja biblioteki "discord"
++ Stworzenie instancji bota za pomocą discord developer portal
++ Stworzenie servera do testowania funkcji bota
+
+# 23.03.2022
++ Tymczasowa funkcja odpowiedzi na komende "$hello"
++ dodanie biblioteki "os"
++ testowanie funkcji
++ wykrywanie autora wiadomosci
++ dodanie testowych komend "ban", "kick", "timeout"
+
+# 24.03.2022
++ dodanie funkcji czytania i wyszukiwania słów w wiadomości
++ dodanie testowych komend by sprawdzać działanie funckji
++ dodanie "dummy" bota w celu testowania funckji na innych użytkownikach
+
+# 28.03.2022
++ testowanie funckji na "dummy"
++ troubleshooting
+
+#30.03.2022
++ naprawa problemów napotkanych w poprzedniej aktualizacji
++ zmianienie uprawnień "dummy bota" na niższe niż administrator w celu naprawienia komend
++ dodanie pliku z listą słów zakazanych
++ dodanie funkcji sprawdzania wiadomości i szukania zakazanych słów
++ dodanie funkcji automatycznego ban/kick/timeout w przypadku wiadomości zawierającej zakazanego słowa
+
+
+
